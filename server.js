@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // مفتاح الـ API الخاص بك
-const API_KEY = "حط_مفتاحك_هنا";
+const API_KEY = "AQ.Ab8RN6J1UHm30cn8-TGdcTEgz__XUdx5H4RnnV_BzZfg_f6fHQ";
 
 app.post('/chat', async (req, res) => {
     try {
